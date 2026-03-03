@@ -137,16 +137,6 @@ h6 {
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1600px) {
-    /* .header~main {
-        margin-left: 197px;
-    } */
-    .header~main .hero {
-        /* margin-left: -215px; */
-        width: 100vw;
-    }
-}
-
 .header.header-show {
     left: 0;
 }
