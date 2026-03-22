@@ -1,0 +1,338 @@
+.img-soya {
+    width: 100%;
+    height: auto;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+}
+
+.kontener {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+}
+
+.red {
+    color: red;
+}
+
+.text-onSoya {
+    position: absolute;
+}
+
+.image-container {
+    height: 500px;
+    width: auto;
+    position: relative;
+}
+
+.image-container>img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-container>h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-soya {
+    background-image: url('../img/soyaPng.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.amonit {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("/img/ammonite1.png");
+}
+
+.Logo {
+    width: 150px;
+    height: auto;
+}
+
+.border-brazowe {
+    border-color: #de6800 !important;
+}
+
+.icon-primary-color {
+    color: #479146;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    max-height: 200px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: relative;
+    max-height: 300px;
+}
+
+.row-eq-height>[class^=col]:first-of-type {
+    display: flex;
+}
+
+.row-eq-height>[class^=col]:last-of-type {
+    display: flex;
+}
+
+.row-eq-heightRevert>[class^=col]:first-of-type .fit {
+    flex-grow: 1;
+}
+
+.row-eq-heightRevert>[class^=col]:last-of-type {
+    display: flex;
+}
+
+.row-eq-heightRevert>[class^=col]:first-of-type .fit {
+    flex-grow: 1;
+}
+
+
+/*jssor slider loading skin spin css*/
+
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*jssor slider arrow skin 106 css*/
+
+.jssora106 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssora106 .c {
+    fill: #fff;
+    opacity: .3;
+}
+
+.jssora106 .a {
+    fill: none;
+    stroke: #000;
+    stroke-width: 350;
+    stroke-miterlimit: 10;
+}
+
+.jssora106:hover .c {
+    opacity: .5;
+}
+
+.jssora106:hover .a {
+    opacity: .8;
+}
+
+.jssora106.jssora106dn .c {
+    opacity: .2;
+}
+
+.jssora106.jssora106dn .a {
+    opacity: 1;
+}
+
+.jssora106.jssora106ds {
+    opacity: .3;
+    pointer-events: none;
+}
+
+
+/*jssor slider thumbnail skin 101 css*/
+
+.jssort101 .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+
+.jssort101 .p .cv {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.jssort101 .a {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 400;
+    stroke-miterlimit: 10;
+    visibility: hidden;
+}
+
+.jssort101 .p:hover .cv,
+.jssort101 .p.pdn .cv {
+    border: none;
+    border-color: transparent;
+}
+
+.jssort101 .p:hover {
+    padding: 2px;
+}
+
+.jssort101 .p:hover .cv {
+    background-color: rgba(0, 0, 0, 6);
+    opacity: .35;
+}
+
+.jssort101 .p:hover.pdn {
+    padding: 0;
+}
+
+.jssort101 .p:hover.pdn .cv {
+    border: 2px solid #fff;
+    background: none;
+    opacity: .35;
+}
+
+.jssort101 .pav .cv {
+    border-color: #fff;
+    opacity: .35;
+}
+
+.jssort101 .pav .a,
+.jssort101 .p:hover .a {
+    visibility: visible;
+}
+
+.jssort101 .t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    opacity: .6;
+}
+
+.jssort101 .pav .t,
+.jssort101 .p:hover .t {
+    opacity: 1;
+}
+
+.carousel {
+    background: transparent
+}
+
+
+/*
+  Forces image to be 100% width and not max width of 100%
+  */
+
+.carousel-item {
+    /* max-height: 500px; */
+    width: 100%;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+
+/* 
+  anchors are inline so you need ot make them block to go full width
+  */
+
+.carousel-item a {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .card-img-top {
+        height: 338px;
+    }
+    .img-slider {
+        height: 313px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-img-top {
+        height: 458px;
+    }
+    .img-slider {
+        height: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-img-top {
+        height: 191px;
+    }
+    .card-text {
+        height: 400px;
+    }
+    .img-slider {
+        height: 450px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-img-top {
+        height: 230px;
+    }
+    .card-text {
+        height: 300px;
+    }
+    .img-slider {
+        height: 520px;
+    }
+}

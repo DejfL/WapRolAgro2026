@@ -1,0 +1,9 @@
+#Googlebot
+User-agent: Googlebot
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.png
+
+User-agent: *
+Sitemap: http://wap-rol.agro.pl/sitemap.xml
